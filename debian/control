@@ -1,0 +1,61 @@
+Source: kde-dev-utils
+Section: kde
+Priority: optional
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Uploaders: Sune Vuorela <sune@debian.org>,
+           Fathi Boudra <fabo@debian.org>,
+           Modestas Vainius <modax@debian.org>,
+           George Kiagiadakis <kiagiadakis.george@gmail.com>,
+           Maximiliano Curia <maxy@debian.org>
+Build-Depends: kde-sc-dev-latest (>= 4:4.10.2),
+ cmake, debhelper (>= 9), pkg-kde-tools (>= 0.12),
+ kdelibs5-dev (>= 4:4.10.2),
+ libltdl-dev,
+ libx11-dev
+Standards-Version: 3.9.4
+Homepage: http://www.kde.org/
+Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/kde-sc/kde-dev-utils.git
+Vcs-Git: git://anonscm.debian.org/pkg-kde/kde-sc/kde-dev-utils.git
+
+Package: kdesdk-misc
+Architecture: any
+Section: devel
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Suggests: libqt4-dev
+Description: miscellaneous tools from the KDE Software Development Kit
+ This package contains additional tools to aid in development for KDE.
+ .
+ Included are:
+  - headers to assist with profiling KDE code
+  - kstartperf to measure startup time
+ .
+ This package is part of the KDE Software Development Kit module.
+
+Package: kpartloader
+Architecture: any
+Section: devel
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: test tool for KParts
+ KPartloader is a very simple application to test loading of a KPart.
+ KPartloader is called with a simple argument to tell which KPart to load.
+ .
+ KParts is a KDE core technology to embed components of one application into
+ other applications. This application is used for testing such components
+ during development.
+ .
+ This package is part of the KDE Software Development Kit module.
+
+Package: kuiviewer
+Architecture: any
+Section: devel
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Suggests: qt4-designer
+Description: viewer for Qt Designer user interface files
+ KUIViewer is a utility to display and check user interface (.ui) files
+ created in Qt Designer.  The interfaces can be shown in a variety of
+ different widget styles to ensure that they display correctly in any
+ environment.
+ .
+ The Qt Designer itself is in the package qt4-designer.
+ .
+ This package is part of the KDE Software Development Kit module.
