@@ -1,0 +1,7 @@
+# Manual pages are there, but scripts aren't
+./usr/share/man/man1/demangle.1
+
+#other devstuff
+./usr/include/ktrace.h
+./usr/lib/libktrace.so
+

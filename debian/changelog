@@ -1,5 +1,10 @@
 kde-dev-utils (4:4.11.3-2) UNRELEASED; urgency=low
 
+  [ Pino Toscano ]
+  * Re-enable kmtrace:
+    - add kmtrace in control
+    - add the libiberty-dev | binutils-dev build dependency
+    - provide kmtrace.install and kmtrace.lintian-overrides
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 30 Nov 2013 14:20:27 +0100
 

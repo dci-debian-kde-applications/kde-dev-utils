@@ -10,6 +10,7 @@ Uploaders: Sune Vuorela <sune@debian.org>,
 Build-Depends: kde-sc-dev-latest (>= 4:4.11),
  cmake, debhelper (>= 9), pkg-kde-tools (>= 0.12),
  kdelibs5-dev (>= 4:4.11),
+ libiberty-dev | binutils-dev,
  libltdl-dev,
  libx11-dev
 Standards-Version: 3.9.4
@@ -57,5 +58,15 @@ Description: viewer for Qt Designer user interface files
  environment.
  .
  The Qt Designer itself is in the package qt4-designer.
+ .
+ This package is part of the KDE Software Development Kit module.
+
+Package: kmtrace
+Architecture: any
+Section: devel
+Depends: ${shlibs:Depends}, ${misc:Depends}, less
+Description: memory leak tracer
+ KMtrace is a KDE tool to assist with malloc debugging using glibc's
+ "mtrace" functionality.
  .
  This package is part of the KDE Software Development Kit module.
