@@ -7,12 +7,14 @@ Uploaders: Sune Vuorela <sune@debian.org>,
            Modestas Vainius <modax@debian.org>,
            George Kiagiadakis <kiagiadakis.george@gmail.com>,
            Maximiliano Curia <maxy@debian.org>
-Build-Depends: kde-sc-dev-latest (>= 4:4.11),
- cmake, debhelper (>= 9), pkg-kde-tools (>= 0.12),
- kdelibs5-dev (>= 4:4.11),
- libiberty-dev | binutils-dev,
- libltdl-dev,
- libx11-dev
+Build-Depends: cmake,
+               debhelper (>= 9),
+               kde-sc-dev-latest (>= 4:4.11),
+               kdelibs5-dev (>= 4:4.11),
+               libiberty-dev | binutils-dev,
+               libltdl-dev,
+               libx11-dev,
+               pkg-kde-tools (>= 0.12)
 Standards-Version: 3.9.5
 Homepage: http://www.kde.org/
 Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/kde-sc/kde-dev-utils.git
@@ -21,7 +23,7 @@ Vcs-Git: git://anonscm.debian.org/pkg-kde/kde-sc/kde-dev-utils.git
 Package: kdesdk-misc
 Architecture: any
 Section: devel
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}
 Suggests: libqt4-dev
 Description: miscellaneous tools from the KDE Software Development Kit
  This package contains additional tools to aid in development for KDE.
@@ -35,7 +37,7 @@ Description: miscellaneous tools from the KDE Software Development Kit
 Package: kpartloader
 Architecture: any
 Section: devel
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: test tool for KParts
  KPartloader is a very simple application to test loading of a KPart.
  KPartloader is called with a simple argument to tell which KPart to load.
@@ -49,7 +51,7 @@ Description: test tool for KParts
 Package: kuiviewer
 Architecture: any
 Section: devel
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}
 Suggests: qt4-designer
 Description: viewer for Qt Designer user interface files
  KUIViewer is a utility to display and check user interface (.ui) files
@@ -64,7 +66,7 @@ Description: viewer for Qt Designer user interface files
 Package: kmtrace
 Architecture: any
 Section: devel
-Depends: ${shlibs:Depends}, ${misc:Depends}, less
+Depends: less, ${misc:Depends}, ${shlibs:Depends}
 Description: memory leak tracer
  KMtrace is a KDE tool to assist with malloc debugging using glibc's
  "mtrace" functionality.
