@@ -1,8 +1,9 @@
-kde-dev-utils (4:4.11.3-3) UNRELEASED; urgency=medium
+kde-dev-utils (4:4.12.2-1) UNRELEASED; urgency=medium
 
   * Bump Standards-Version to 3.9.5, no changes needed.
+  * New upstream release.
 
- -- Maximiliano Curia <maxy@debian.org>  Mon, 03 Feb 2014 18:14:50 +0100
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 04 Feb 2014 23:55:34 +0100
 
 kde-dev-utils (4:4.11.3-2) unstable; urgency=low
 
