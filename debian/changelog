@@ -1,3 +1,12 @@
+kde-dev-utils (4:14.11.95-0ubuntu1) UNRELEASED; urgency=medium
+
+  * New upstream beta release
+  * Fix watch urls for new release location
+  * Update Vcs urls for the new repository location
+  * Update the maintainer
+
+ -- Philip Muškovac <yofel@kubuntu.org>  Sun, 23 Nov 2014 17:57:50 +0100
+
 kde-dev-utils (4:4.12.2-2) unstable; urgency=medium
 
   * Release to unstable
