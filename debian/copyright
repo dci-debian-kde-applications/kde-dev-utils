@@ -18,7 +18,7 @@ License: LGPL-2+
 Files: kpartloader/kpartloader.cpp
        kpartloader/kpartloader.h
 Copyright: 2008, David Faure <faure@kde.org>
-License: LGPL-2.1 or LGPL-3 or later editions as approved by KDE eV
+License: LGPL-KDEeV
  This library is free software; you can redistribute it and/or
  modify it under the terms of the GNU Lesser General Public
  License as published by the Free Software Foundation; either
