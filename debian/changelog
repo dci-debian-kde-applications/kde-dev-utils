@@ -1,11 +1,15 @@
-kde-dev-utils (4:14.11.97-0ubuntu1) UNRELEASED; urgency=medium
+kde-dev-utils (4:14.11.97-0ubuntu1~ubuntu15.04~ppa2) vivid; urgency=medium
 
+  [ Philip Muškovac ]
   * New upstream release candidate
   * Fix watch urls for new release location
   * Update Vcs urls for the new repository location
   * Update the maintainer
 
- -- Philip Muškovac <yofel@kubuntu.org>  Sun, 23 Nov 2014 17:57:50 +0100
+  [ Jonathan Riddell ]
+  * PPA build
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 03 Dec 2014 14:59:30 +0100
 
 kde-dev-utils (4:4.12.2-2) unstable; urgency=medium
 
