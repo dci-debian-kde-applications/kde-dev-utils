@@ -1,6 +1,7 @@
 kde-dev-utils (4:14.12.2-1~) UNRELEASED; urgency=medium
 
   * Prepare Debian release.
+  * Bump Standards-Version to 3.9.6, no changes needed.
 
  -- Maximiliano Curia <maxy@debian.org>  Tue, 17 Feb 2015 15:25:00 +0100
 
