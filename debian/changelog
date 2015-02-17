@@ -1,9 +1,9 @@
-kde-dev-utils (4:14.12.2-1~) UNRELEASED; urgency=medium
+kde-dev-utils (4:14.12.2-1) experimental; urgency=medium
 
   * Prepare Debian release.
   * Bump Standards-Version to 3.9.6, no changes needed.
 
- -- Maximiliano Curia <maxy@debian.org>  Tue, 17 Feb 2015 15:25:00 +0100
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 17 Feb 2015 15:46:01 +0100
 
 kde-dev-utils (4:14.12.2-0ubuntu1) vivid; urgency=medium
 
