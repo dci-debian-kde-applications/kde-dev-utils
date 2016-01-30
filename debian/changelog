@@ -47,6 +47,13 @@ kde-dev-utils (4:14.12.3-0ubuntu1) vivid; urgency=medium
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Fri, 13 Mar 2015 14:23:59 -0700
 
+kde-dev-utils (4:14.12.2-1) experimental; urgency=medium
+
+  * Prepare Debian release.
+  * Bump Standards-Version to 3.9.6, no changes needed.
+
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 17 Feb 2015 15:46:01 +0100
+
 kde-dev-utils (4:14.12.2-0ubuntu1) vivid; urgency=medium
 
   * New upstream release
