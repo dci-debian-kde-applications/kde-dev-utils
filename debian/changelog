@@ -1,6 +1,6 @@
-kde-dev-utils (4:15.12.2-2~1.gbpa980ba) UNRELEASED; urgency=medium
+kde-dev-utils (4:15.12.2-2~2.gbp6b91d0) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @a980ba70234fb4eca3cab46323d650f21bf303a3 **
+  ** SNAPSHOT build @6b91d086636cadff996be54ac06c1251e2d067fb **
 
   [ Rohan Garg ]
   * New upstream release
@@ -8,7 +8,11 @@ kde-dev-utils (4:15.12.2-2~1.gbpa980ba) UNRELEASED; urgency=medium
   [ Automatic packaging ]
   * Bump Standards-Version to 3.9.8
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Wed, 13 Apr 2016 12:23:37 +0200
+  [ Maximiliano Curia ]
+  * Add upstream metadata (DEP-12)
+  * debian/control: Update Vcs-Browser and Vcs-Git fields
+
+ -- Maximiliano Curia <maxy@gnuservers.com.ar>  Mon, 09 May 2016 10:23:15 +0200
 
 kde-dev-utils (4:14.12.2-1) experimental; urgency=medium
 
