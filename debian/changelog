@@ -1,8 +1,14 @@
-kde-dev-utils (4:15.12.2-1) UNRELEASED; urgency=medium
+kde-dev-utils (4:15.12.2-2~1.gbpa980ba) UNRELEASED; urgency=medium
 
+  ** SNAPSHOT build @a980ba70234fb4eca3cab46323d650f21bf303a3 **
+
+  [ Rohan Garg ]
   * New upstream release
 
- -- Rohan Garg <rohan@kde.org>  Fri, 26 Feb 2016 21:50:46 +0100
+  [ Automatic packaging ]
+  * Bump Standards-Version to 3.9.8
+
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Wed, 13 Apr 2016 12:23:37 +0200
 
 kde-dev-utils (4:14.12.2-1) experimental; urgency=medium
 
