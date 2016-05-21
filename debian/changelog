@@ -1,6 +1,4 @@
-kde-dev-utils (4:15.12.2-2~2.gbp6b91d0) UNRELEASED; urgency=medium
-
-  ** SNAPSHOT build @6b91d086636cadff996be54ac06c1251e2d067fb **
+kde-dev-utils (4:15.12.2-2) unstable; urgency=medium
 
   [ Rohan Garg ]
   * New upstream release
@@ -12,7 +10,7 @@ kde-dev-utils (4:15.12.2-2~2.gbp6b91d0) UNRELEASED; urgency=medium
   * Add upstream metadata (DEP-12)
   * debian/control: Update Vcs-Browser and Vcs-Git fields
 
- -- Maximiliano Curia <maxy@gnuservers.com.ar>  Mon, 09 May 2016 10:23:15 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Sat, 21 May 2016 16:50:41 +0200
 
 kde-dev-utils (4:14.12.2-1) experimental; urgency=medium
 
