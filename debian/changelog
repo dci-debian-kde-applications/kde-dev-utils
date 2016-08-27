@@ -1,9 +1,9 @@
-kde-dev-utils (4:16.08.0-0r1) UNRELEASED; urgency=medium
+kde-dev-utils (4:16.08.0-1) unstable; urgency=medium
 
-  [ Pino Toscano ]
+  * Team upload.
   * New upstream release.
 
- -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 27 Aug 2016 15:31:46 +0200
+ -- Pino Toscano <pino@debian.org>  Sat, 27 Aug 2016 15:47:38 +0200
 
 kde-dev-utils (4:15.12.2-2) unstable; urgency=medium
 
