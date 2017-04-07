@@ -1,14 +1,23 @@
-kde-dev-utils (4:16.04.1-0neon) xenial; urgency=medium
+kde-dev-utils (4:16.08.0-1) unstable; urgency=medium
 
-  * New release
+  * Team upload.
+  * New upstream release.
 
- -- Neon CI <neon@kde.org>  Wed, 18 May 2016 18:13:56 +0200
+ -- Pino Toscano <pino@debian.org>  Sat, 27 Aug 2016 15:47:38 +0200
 
-kde-dev-utils (4:15.12.2-1) UNRELEASED; urgency=medium
+kde-dev-utils (4:15.12.2-2) unstable; urgency=medium
 
+  [ Rohan Garg ]
   * New upstream release
 
- -- Rohan Garg <rohan@kde.org>  Fri, 26 Feb 2016 21:50:46 +0100
+  [ Automatic packaging ]
+  * Bump Standards-Version to 3.9.8
+
+  [ Maximiliano Curia ]
+  * Add upstream metadata (DEP-12)
+  * debian/control: Update Vcs-Browser and Vcs-Git fields
+
+ -- Maximiliano Curia <maxy@debian.org>  Sat, 21 May 2016 16:50:41 +0200
 
 kde-dev-utils (4:14.12.2-1) experimental; urgency=medium
 
