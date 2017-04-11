@@ -9,6 +9,7 @@ Uploaders: Sune Vuorela <sune@debian.org>,
            Maximiliano Curia <maxy@debian.org>
 Build-Depends: cmake,
                debhelper (>= 9),
+               extra-cmake-modules,
                gettext,
                libkf5coreaddons-dev,
                libkf5i18n-dev,
