@@ -1,2 +1,3 @@
 usr/bin/kpartloader
 usr/share/kxmlgui5/kpartloader/kpartloaderui.rc
+usr/share/locale/*/LC_MESSAGES/kpartloader.mo

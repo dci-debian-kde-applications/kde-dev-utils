@@ -9,3 +9,4 @@ usr/share/kservices5/designerthumbnail.desktop
 usr/share/kservices5/kuiviewer_part.desktop
 usr/share/kxmlgui5/kuiviewer/kuiviewerui.rc
 usr/share/kxmlgui5/kuiviewerpart/kuiviewer_part.rc
+usr/share/locale/*/LC_MESSAGES/kuiviewer.mo
