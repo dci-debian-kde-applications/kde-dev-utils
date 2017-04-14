@@ -30,6 +30,8 @@ Package: kpartloader
 Architecture: any
 Section: devel
 Depends: ${misc:Depends}, ${shlibs:Depends}
+Breaks: ${kde-l10n:all}
+Replaces: ${kde-l10n:all}
 Description: test tool for KParts
  KPartloader is a very simple application to test loading of a KPart.
  KPartloader is called with a simple argument to tell which KPart to load.
@@ -45,6 +47,8 @@ Architecture: any
 Section: devel
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Suggests: qt5-designer
+Breaks: ${kde-l10n:all}
+Replaces: ${kde-l10n:all}
 Description: viewer for Qt Designer user interface files
  KUIViewer is a utility to display and check user interface (.ui) files
  created in Qt Designer.  The interfaces can be shown in a variety of
