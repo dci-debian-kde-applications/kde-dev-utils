@@ -6,7 +6,7 @@ Uploaders: Sune Vuorela <sune@debian.org>,
            Fathi Boudra <fabo@debian.org>,
            Modestas Vainius <modax@debian.org>,
            George Kiagiadakis <kiagiadakis.george@gmail.com>,
-           Maximiliano Curia <maxy@debian.org>
+           Maximiliano Curia <maxy@debian.org>,
 Build-Depends: cmake,
                debhelper (>= 9),
                extra-cmake-modules,
@@ -20,7 +20,7 @@ Build-Depends: cmake,
                pkg-kde-tools (>= 0.12),
                python,
                qtbase5-dev,
-               qttools5-dev
+               qttools5-dev,
 Standards-Version: 4.1.0
 Homepage: http://www.kde.org/
 Vcs-Browser: https://anonscm.debian.org/git/pkg-kde/applications/kde-dev-utils.git
