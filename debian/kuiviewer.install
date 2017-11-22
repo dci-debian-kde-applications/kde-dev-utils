@@ -2,9 +2,12 @@ usr/bin/kuiviewer
 usr/lib/*/qt5/plugins/kuiviewerpart.so
 usr/lib/*/qt5/plugins/quithumbnail.so
 usr/share/applications/org.kde.kuiviewer.desktop
+usr/share/icons/hicolor/128x128/apps/kuiviewer.png
 usr/share/icons/hicolor/16x16/apps/kuiviewer.png
 usr/share/icons/hicolor/32x32/apps/kuiviewer.png
 usr/share/icons/hicolor/48x48/apps/kuiviewer.png
+usr/share/icons/hicolor/64x64/apps/kuiviewer.png
+usr/share/icons/hicolor/scalable/apps/kuiviewer.svg
 usr/share/kservices5/designerthumbnail.desktop
 usr/share/kservices5/kuiviewer_part.desktop
 usr/share/kxmlgui5/kuiviewer/kuiviewerui.rc
