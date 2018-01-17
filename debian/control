@@ -17,7 +17,6 @@ Build-Depends: cmake (>= 2.8.12~),
                libkf5parts-dev,
                libkf5widgetsaddons-dev,
                pkg-kde-tools (>= 0.12),
-               python,
                qtbase5-dev (>= 5.5.0~),
                qttools5-dev (>= 5.5.0~),
 Standards-Version: 4.1.1
