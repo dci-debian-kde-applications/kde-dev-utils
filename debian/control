@@ -53,6 +53,6 @@ Description: viewer for Qt Designer user interface files
  different widget styles to ensure that they display correctly in any
  environment.
  .
- The Qt Designer itself is in the package qt4-designer.
+ The Qt Designer itself is in the package qttools5-dev-tools.
  .
  This package is part of the KDE Software Development Kit module.
