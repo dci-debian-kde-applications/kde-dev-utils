@@ -44,7 +44,7 @@ Package: kuiviewer
 Architecture: any
 Section: devel
 Depends: ${misc:Depends}, ${shlibs:Depends}
-Suggests: qt5-designer
+Suggests: qttools5-dev-tools
 Breaks: ${kde-l10n:all}
 Replaces: ${kde-l10n:all}
 Description: viewer for Qt Designer user interface files
